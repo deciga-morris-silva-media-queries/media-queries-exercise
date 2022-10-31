@@ -71,5 +71,45 @@
     }
 }
 @media screen and (min-width:769px) {
-   /*stuff here*/
+   .alert-info {
+       display: none;
+   }
+    nav {
+        display: inline-block;
+        float: right;
+        margin: 21.44px;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    li>a {
+        margin: 10px;
+    }
+    h1 {
+        display: inline-block;
+    }
+    img {
+        width: 100%;
+    }
+    section {
+        display: inline-block;
+    }
+    .main {
+        width: calc(70% - 20px);
+        margin: 10px;
+
+    }
+    .sub-section {
+        float: right;
+        width: 30%;
+        font-style: italic;
+    }
+    h2 {
+        margin-bottom: 30px;
+    }
+    section>p {
+        height: 300px;
+    }
 }
