@@ -9,7 +9,7 @@ body {
 @media screen and (min-width:50px) and (max-width:768px) {
     .alert-info {
         background: #cbffff;
-        width: calc(100% - 20px);
+        width: 319px;
         height: 20px;
         padding: 10px;
         display: flex;
@@ -34,14 +34,40 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        margin: 10px 0;
     }
     li {
         background: #cccccc;
-        padding: 10px;
+        padding: 10px 0;
         margin: 5px;
-        width: 300px;
+        width: 339px;
         display: flex;
         justify-content: center;
+    }
+    img {
+        width: 339px;
+        height: 224px;
+    }
+    section {
+        width: 339px;
+    }
+    h2 {
+        margin-block-end: 0;
+    }
+    section>p {
+        margin-block-start: 0.75em;
+    }
+    .sub-section>h2 {
+        font-size: 20px;
+    }
+    .sub-section>p {
+        font-style: italic;
+    }
+    footer {
+        align-self: flex-start;
+        justify-content: flex-end;
+        font-size: 14px;
+        margin-top: 40px;
     }
 }
 @media screen and (min-width:769px) {
