@@ -1,12 +1,12 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    padding: 10px;
-    font-family: "Arial";
-}
 @media screen and (min-width:50px) and (max-width:768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+        font-family: "Arial";
+    }
     .alert-info {
         background: #cbffff;
         width: 319px;
